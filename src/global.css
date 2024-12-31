@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --gray-100: #717171;
+    --white: #FFFF;
+    --black: #222222;
+    --red: #FF385C;
+}

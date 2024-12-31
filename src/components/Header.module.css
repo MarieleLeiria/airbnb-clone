@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.state {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 22rem; */
+    padding: 1.75rem;
+}
+
+.logoImage {
+    display: flex;
+    /* width: 42rem; */
+    flex-direction: row;
+    justify-content: center;
+    gap: .35rem;
+
+}
+
+.navLinks {
+    display: flex;
+    /* width: 55rem; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* padding: 15rem, 1.75rem; */
+
+}
+
+.navLinks a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #717171;
+}
+
+.navLinks a:hover {
+    color: #222222;
+}
+
+.userGet {
+    display: flex;
+    /* width: 55rem; */
+    /* flex-shrink: 0; */
+    /* gap: .5rem; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.userGet a {
+    text-decoration: 0;
+    color: #222222;
+}
+
+.globeButton {
+    border: 0;
+    color: #222222;
+    line-height: 0;
+}
+
+.userGet button {
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.userButton {
+    display: flex;
+    align-items: center;
+    border: 1px #DDDDDD solid;
+    border-radius: 30px;
+    text-align: center;
+    gap: .5rem;
+}
+
+.profileImage {
+    width: 1.75rem;
+}
+
+.search {
+    display: flex;
+    width: 42rem;
+    box-shadow: 0 0 5px hsl(0 0% 78%);
+    height: 3.5rem;
+    border-radius: 100vw;
+    font-size: 0.8rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search span,
+::placeholder {
+    font-size: .8rem;
+    color: #717171;
+}
+
+.search label,
+p {
+    font-size: 0.75rem;
+    color: #222222;
+    font-weight: 700;
+}
+
+.destines {
+    display: flex;
+    margin: .5rem;
+    justify-content: center;
+    margin-left: 2rem;
+    flex-direction: column;
+    width: 17.5rem;
+    height: 4rem;
+}
+
+.destines input {
+    border: none;
+
+}
+
+.avaiableDates {
+    display: flex;
+    line-height: 0;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    width: 17.5rem;
+    height: 4rem;
+    gap: 4rem;
+}
+
+.checkin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.25rem;
+
+}
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.guestsAndButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    width: 17.8rem;
+    height: 4.2rem;
+    gap: 6rem;
+}
+
+.hostages {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    flex-direction: column;
+    gap: 0.25rem;
+
+}
+
+.searchButton {
+    display: flex;
+    align-items: center;
+}
+
+.searchButton button {
+    display: flex;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 50%;
+    background-color: #FF385C;
+}
+
+.searchButton svg {
+    color: #FFFF;
+}
